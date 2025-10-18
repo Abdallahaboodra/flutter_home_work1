@@ -11,24 +11,25 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.all(15),
+        padding: const EdgeInsets.symmetric(horizontal: 15),
         child: Column(
+          spacing: 15,
           children: [
             Container(height: 150, color: Color(0xffE0EFFB)),
-            SizedBox(height: 15),
+            // SizedBox(height: 15),
             CustomFirstRow(),
-            SizedBox(height: 15),
+            // SizedBox(height: 15),
             Container(
-              margin: EdgeInsets.only(bottom: 15),
+              // margin: EdgeInsets.only(bottom: 15),
               color: Colors.grey,
               height: 2,
             ),
             CustomSecondRow(),
-            SizedBox(height: 15),
+            // SizedBox(height: 15),
             CustomThirdRow(),
-            SizedBox(height: 20),
+            // SizedBox(height: 20),
             CustomFourthRow(),
-            SizedBox(height: 20),
+            // SizedBox(height: 20),
             Container(color: Colors.grey, height: 40, width: double.infinity),
           ],
         ),

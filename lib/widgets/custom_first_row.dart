@@ -6,7 +6,7 @@ class CustomFirstRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisSize: MainAxisSize.max,
+      // mainAxisSize: MainAxisSize.max,
       children: [
         Container(color: Colors.grey, height: 20, width: 20),
         Expanded(
